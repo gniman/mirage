@@ -1,0 +1,106 @@
+/* Header styling */
+header {
+    background-color: #333; /* Dark gray background */
+    padding: 20px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+    border-bottom: 2px solid #fff; /* Horizontal line */
+}
+
+/* Logo styling */
+header img {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+}
+
+nav ul li {
+    margin-left: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin from the first item */
+}
+
+nav ul li a {
+    color: #ffd700; /* Club theme color */
+    text-decoration: none;
+    font-size: 20px; /* Larger font size */
+    font-weight: bold; /* Bold font */
+    font-family: 'Bebas Neue', cursive; /* Club-themed font */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Spacing between letters */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: #f6eb00; /* Change color on hover */
+}
+
+/* Reserve a table button styling */
+.reserve-table {
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: #ffd700; /* Club theme button color */
+    color: #333; /* Text color */
+    border: none;
+    border-radius: 30px; /* Round corners */
+    cursor: pointer;
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold font */
+    font-family: 'Bebas Neue', cursive; /* Club-themed font */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Spacing between letters */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+.reserve-table:hover {
+    background-color: #f6eb00; /* Change color on hover */
+}
+
+/* Body content styling */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Minimum height of viewport */
+}
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center; /* Center align text */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Footer content */
+.footer-content {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+/* Footer links */
+.footer-content p {
+    font-size: 14px; /* Font size */
+    margin-bottom: 10px; /* Adjust spacing between paragraphs */
+}
+
+/* Social media icons */
+.social-icons a {
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin: 0 10px; /* Adjust spacing between icons */
+}
+
+/* Hover effect for social icons */
+.social-icons a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
